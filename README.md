@@ -160,5 +160,3 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 ---
 
 **View the full project and source code on [GitHub](https://github.com/harshitpandey-26/School_Management_API).**
-
-*Note: This README was auto-generated. Please update with further project details and API documentation as needed.*
