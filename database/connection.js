@@ -10,7 +10,8 @@ const pool = mysql.createPool({
   database: DB_NAME || 'school_management',
   waitForConnections: true,
   connectionLimit: 10,
-  queueLimit: 0
+  queueLimit: 0,
+  ssl: { rejectUnauthorized: true }
 });
 
 // Test connection
