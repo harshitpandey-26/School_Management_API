@@ -36,5 +36,5 @@ app.use((err, req, res, next) => {
 
 const port = PORT || 3000;
 app.listen(port, () => {
-  console.log(`Server is listening on port ${port}`);
+  console.log(`Server is listening on port ${port}.`);
 });
