@@ -18,7 +18,7 @@ app.get('/api/v1/school/', (req, res) => {
     version: '1.0.0',
     endpoints: {
       addSchool: 'POST /api/v1/school/addSchool',
-      listSchools: 'GET /api/v1/school/listSchools'
+      listSchools: 'GET /api/v1/school/listSchools/?latitude={}&longitude={}'
     }
   });
 });
